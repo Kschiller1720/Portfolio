@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url(../images/space\ pic2.jpg);
+    font-family: sans-serif
+}
+
+h1 {
+    color: #fff;
+    
+}
+
+.button1 {
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+.button2 {
+    border-radius: 50%;
+    margin: 20px;
+
+}

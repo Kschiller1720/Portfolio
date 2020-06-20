@@ -1,0 +1,42 @@
+html { 
+    background: url(images/space\ pic2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1 {
+    font-family: Lucida;
+    font-size: 52px;
+   
+}
+
+p {
+    font-family: Lucida;
+}
+
+navbar-brand {
+    font-family: Lucida;
+    color: #15E700;
+}
+
+nav-link {
+    font-family: Lucida;
+    color: #15E700;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #333;
+    }
+    .wrapper {
+        width: 600px;
+    }
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 35% 35%;
+}
