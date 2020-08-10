@@ -13,12 +13,18 @@ h1 {
 
 .button1 {
     border-radius: 50%;
-    margin: 20px;
+    margin: 5px;
+    
 
 }
 
 .button2 {
     border-radius: 50%;
-    margin: 20px;
+    margin: 5px;
 
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: lightslategray;
 }

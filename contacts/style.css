@@ -16,6 +16,7 @@ body {
 .contact-title h1 {
     font-size: 32px;
     line-height: 10px;
+    text-align: center;
 }
 
 form {
@@ -52,4 +53,10 @@ form .submit {
 form .submit:hover {
     background-color: #f44336;
     cursor: pointer;
+}
+
+.contact-form {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
 }
