@@ -42,5 +42,9 @@ nav-link {
 }
 
 .jumbotron {
-    background-color: white;
+    background: transparent;
+}
+
+.blockostupid {
+    background: transparent;
 }

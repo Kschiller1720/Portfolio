@@ -17,11 +17,24 @@
         body {
           background-repeat: no-repeat;
           background-size: 100%;
+          background:transparent;
+        }
+        h1 {
+          color: white;
+        }
+
+        .jumbotron {
+          color: white;
         }
 
         h1 {
           text-align:center;
         }
+
+        info-panel {
+          background-color: darkslategray;
+        }
+
       </style>
     
 <!--Navbar-->
@@ -35,6 +48,9 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="./index.html">Portfolio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=".resume/resume.html">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./about/about.html">About</a>
@@ -60,7 +76,7 @@
 
 <p>
   
-  <div class="jumbotron">
+  <div class="jumbotron" id="blockostupid">
     <h2 class="display-4">Kyle Schiller</h2>
     <p class="lead"></br>
       This site will be comprised of records, videos, links, and more on my career path ahead.</p>
@@ -73,21 +89,32 @@
       <div>
         <ul>
           <li><a class = "PWgen" href = "https://github.com/Kschiller1720/Password_Generator"> Github for PW Generator</a></li>
-          <li><a class = "PWgen" href = "https://kschiller1720.github.io/Password_Generator/"> Password Generator!</a></li>
+          <li><a class = "PWgen" href = "https://kschiller1720.github.io/Password_Generator/"> Password Generator</a></li>
         <br>
           <li><a class = "Planner" href = "https://github.com/Kschiller1720/daily-planner"> Github for Planner</a></li>
-          <li><a class = "Planner" href = "https://kschiller1720.github.io/daily-planner/"> Daily Planner!</a></li>          
-        
+          <li><a class = "Planner" href = "https://kschiller1720.github.io/daily-planner/"> Daily Planner</a></li>          
+        <br>
+          <li><a class = "bdgtTracker" href = "https://github.com/Kschiller1720/budget-tracker/"> Github for Budget-tracker</a></li>
+          <li><a class = "bdgtTracker" href = "https://morning-escarpment-74245.herokuapp.com/"> Budget Tracker</a></li>
+        <br>
+        <li><a class = "empTracker" href = "https://github.com/Kschiller1720/employee_tracker/"> Github for Employee Tracker</a></li>
       </ul>
       </div>
       
       
-      <div>
-        This is a simple generator for passwords. With only an html, css, and javascript file. Along with a fully functional slider bar!
+      <div class="info-panel">
+        This is a simple generator for passwords. With only an html, css, and javascript file. Along with a fully functional slider bar.
         <br>
         <br>
-        A daily planner! Used to keep track of events throughout your current day, this application uses some javascript
-        to change the background color of every hour as it passes in real time!
+        A daily planner used to keep track of events throughout your current day, this application uses some javascript
+        to change the background color of every hour as it passes in real time.
+        <br>
+        <br>
+        This app is used to keep track of your budget expenses.
+        <br>
+        <br>
+        The Employee Tracker is a command line application that allows you to create an entire store chain of command with salaries 
+        and store it into a database.
       </div>
 
     
@@ -102,5 +129,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  
+
   </body>
 </html>
